@@ -1,0 +1,4 @@
+wheel
+matplotlib
+numpy
+jupyter

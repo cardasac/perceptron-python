@@ -7,7 +7,6 @@ import perceptron.common_functions as cf
 # To keep things simple as there is only 1 perceptron, we store weights as a vector of shape (n,)
 # rather Nielsen's way as shape (1, n), a single row matrix.
 class StepPerceptron:
-
     def __init__(self, n):
         """
 
