@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # check output again after training
     print(perceptron.feed_forward(inputs))
 
-    eps = [e for e in range(epochs)]
+    eps = list(range(epochs))
     plt.plot(eps, costs)
     plt.title("Step Perceptron")
     plt.ylabel("epochs")
